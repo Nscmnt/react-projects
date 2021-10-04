@@ -1,0 +1,28 @@
+.matched {
+  background-color: #fdf8c5;
+
+  color: #282c34;
+}
+
+.remainder {
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.remainder.anime {
+  animation: FadeOn 0.3s forwards;
+}
+
+@keyframes FadeOn {
+  0% {
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translateY(-70px);
+    opacity: 0;
+  }
+  100% {
+    transform: initial;
+    opacity: 0.5;
+  }
+}

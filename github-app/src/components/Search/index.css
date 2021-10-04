@@ -1,0 +1,32 @@
+.search-wrapper {
+  max-width: 800px;
+  width: 600px;
+  height: 60px;
+
+  padding: 5px 10px;
+
+  margin-bottom: 15px;
+}
+
+.search-wrapper .search-input {
+  width: 100%;
+
+  padding: 15px 25px;
+
+  border-radius: 10px;
+  border: none;
+  outline: none;
+
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  background-color: #232830;
+
+  color: white;
+}
+
+.search-wrapper .search-input::placeholder {
+  color: white;
+
+  font-weight: normal;
+}

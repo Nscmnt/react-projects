@@ -8,7 +8,7 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 
   font-family: "Rubik", sans-serif;
@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 
   text-align: center;
@@ -42,7 +42,7 @@ body {
 
   border-bottom: solid 2px #fff;
 }
-
+/* 
 .container .valid-keys .matched {
   background-color: #fdf8c5;
 
@@ -50,8 +50,9 @@ body {
 }
 
 .container .valid-keys .remainder {
+  display: inline-block;
   opacity: 0.5;
-}
+} */
 
 .container .completed-words {
   width: max-content;
@@ -64,7 +65,7 @@ body {
 
   text-align: left;
 
-  padding: 20px 40px;
+  padding: 20px 30px 20px 50px;
 
   font-size: 1.5rem;
 
