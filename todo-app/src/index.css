@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
+:root {
+  font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
+
+  background-color: hsl(240, 20%, 12%);
+}
+
+input,
+button {
+  border: none;
+
+  font-family: inherit;
+  font-size: 1rem;
+
+  outline: none;
+}
+
+.App {
+  max-width: 1440px;
+  width: 100vw;
+  height: 100vh;
+
+  margin-inline: auto;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+
+.App::before {
+  content: "";
+
+  height: 38vh;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: url("./assets/bg-desktop-dark.jpg");
+  background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+  background-repeat: no-repeat;
+
+  z-index: -1;
+}

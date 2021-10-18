@@ -2,6 +2,7 @@
 import React from "react";
 import "./App.css";
 import HelloWord from "./components/HelloWord";
+import { StorageGlobal } from "./GlobalContext";
 
 // Todo código é utilizado em funções podendo ser utilizado class porém menos utilizado atualmente, no caso do JSX é código semelhante ao HTML que é retornado de funções que gera os componentes que fazem parte do layout.
 function App() {
@@ -9,11 +10,13 @@ function App() {
   return (
     // sintaxe muito semelhante ao HTML o que facilita o desenvolvimento.
     // Utiliza se chaves para interpolar código JS
-    <div className="App">
-      <h1 className="title">Desenvolvimento com React !!</h1>
-      <hr />
-      <HelloWord />
-    </div>
+    <StorageGlobal>
+      <div className="App">
+        <h1 className="title">Desenvolvimento com React !!</h1>
+        <hr />
+        <HelloWord />
+      </div>
+    </StorageGlobal>
   );
 }
 

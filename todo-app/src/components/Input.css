@@ -1,0 +1,41 @@
+.input-wrapper {
+  margin-bottom: 20px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 5px;
+
+  background-color: #25273c;
+}
+
+.check-wrapper {
+  width: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-check {
+  width: 18px;
+  height: 18px;
+
+  border-radius: 50%;
+
+  border: 1px solid hsl(233, 14%, 35%);
+}
+.todo-input {
+  width: 100%;
+
+  padding: 15px;
+
+  font-size: 0.852rem;
+  color: hsl(234, 39%, 85%);
+  background-color: #25273c;
+  color: hsl(234, 39%, 85%);
+
+  border-radius: 5px;
+
+  outline: none;
+}

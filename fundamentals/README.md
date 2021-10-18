@@ -117,6 +117,14 @@ npx create-react-app <nome-do-app>
 <li>O callback só sera recriado se a lista de dependencia for modificada.</li>
 </ul>
 
+#### useContext
+
+<ul>
+<li>Prover uma forma de compartilhar estado de forma global;</li>
+<li>Possui os métodos createContext, Provider e Consumer para criar e compartilhar estados, funções em escopos especificos;</li>
+<li>Melhora a organização do código e reutilização de dados em comum como dados de user;</li>
+</ul>
+
 ### React Router
 
 <p>Apesar de não nativo do react é o pacote quase padrão utilizado para gerenciar rotas em React</p>

@@ -1,0 +1,77 @@
+.tasks-wrapper {
+  border-radius: 5px;
+
+  margin: 0;
+  padding: 0;
+
+  background-color: #25273c;
+}
+
+.todo-wrapper {
+  display: flex;
+  align-items: center;
+
+  background-color: #25273c;
+
+  list-style: none;
+
+  border-radius: 5px 5px 0 0;
+
+  border-bottom: 1px solid #4a4d62;
+}
+
+.todo-check-wrapper {
+  width: 10%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-check-wrapper.check > div {
+  background: linear-gradient(45deg, #658eb8, #9879da);
+}
+
+.todo-check {
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  border: 1px solid hsl(233, 14%, 35%);
+
+  cursor: pointer;
+}
+
+.todo-check-wrapper.check + .todo-task {
+  color: #494c61;
+  text-decoration: line-through;
+}
+
+.todo-task {
+  width: 90%;
+  height: max-content;
+
+  padding: 15px;
+
+  word-wrap: break-word;
+  border-radius: 5px 5px 0 0;
+
+  font-size: 0.852rem;
+  color: hsl(234, 39%, 85%);
+  background-color: #25273c;
+}
+
+.empty-todo {
+  text-align: center;
+
+  font-size: 0.852rem;
+
+  color: hsl(233, 21%, 39%);
+
+  padding: 15px 0;
+}
